@@ -2,6 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'src/locations.dart' as locations;
 
+// Json verilerin  google web servisinden çekilerek harita üzerine
+// marker eklenmesi sağlanıyor
+
+// kodun hatasız çalışabilmesi için
+
+// aşağıdaki kodun terminal bölümüne yazılıp çalıştırılması gerekiyor
+
+//flutter pub run build_runner build --delete-conflicting-outputs
+
 void main() {
   runApp(MyApp());
 }

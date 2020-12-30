@@ -49,6 +49,7 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.green[700],
         ),
         body: GoogleMap(
+          mapType: MapType.satellite,
           onMapCreated: _onMapCreated,
           initialCameraPosition: CameraPosition(
             target: const LatLng(0, 0),
